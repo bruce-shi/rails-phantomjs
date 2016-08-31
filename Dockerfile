@@ -1,4 +1,4 @@
-FROM ruby:2.2
+FROM ruby:2.3
 MAINTAINER Bruce Shi <bruceshi@chinarenaissance.com>
 RUN apt-get update
 RUN apt-get install -y git build-essential curl libpq-dev
